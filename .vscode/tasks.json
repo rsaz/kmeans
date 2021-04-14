@@ -6,7 +6,8 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "${file}",
+                //"${file}",
+                "${workspaceFolder}/src/*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

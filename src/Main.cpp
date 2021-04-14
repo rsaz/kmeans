@@ -28,5 +28,6 @@ int main(int argc, char **argv)
 
     RunKMeans(file, K);
     
+    
     std::cin.get();
 }
